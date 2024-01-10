@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Kalnia:wght@300&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    background-color: #dccccc;
+    justify-content: space-between;
+    align-items: center ;
+    padding-inline: 1.5rem;
+    padding-block: 0.15rem;
+}
+
+.navbar-toggler{
+    color: transparent;
+    border-color: transparent;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.menu-link{
+    color: #915f86;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase ;
+    font-size: 1.4rem;
+    font-family: 'Afacad', sans-serif;
+}
+
+.menu-link:hover{
+    font-size: 1.7rem;
+    text-decoration: underline;
+}
+
+.logo-header{
+    width: 11rem;
+    vertical-align: middle;
+}
+
+header{
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.footer{
+    background-color: #dccccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem ;
+    color: #915f86;
+    align-items: center;
+    font-family: 'Afacad', sans-serif;
+}
+
+.footer-1{
+    width: 15rem;
+}
+
+.footer-2 > ul{
+    list-style-type: none; 
+    display: flex; 
+    gap: 1.5rem; 
+}
+
+.copy{
+    margin-top: 1rem ;
+    font-weight: bold;
+}
+
+.icon-red-social{
+    font-size: 2rem;
+    color: #915f86;
+}
+
+.main{
+    background-image: url("../img/fondo-prod.jpg");
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.frase{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 30rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    position: relative;
+    left: 17.5rem;
+    top: 1rem;
+    background-color: transparent;
+    font-family: 'Kalnia', serif;
+}
+
+.main-porfolio, .main-servicios{
+    display: block;
+}
+
+.main-porfolio > section{
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+    margin-inline: 20rem;
+    gap: 3rem;
+    text-align: center;
+    border-width: 0.2rem;
+    border-style: solid;    
+    font-size: 1.3rem;
+}
+
+.contenedor-1{
+    background-color: rgb(254, 160, 158);
+}
+
+.contenedor-2{
+    flex-direction: row-reverse;
+}
+
+.img-1, .img-2{
+    width: 20rem;
+}
+
+.contenedor-1 > div, .contenedor-2 > div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: 'Afacad', sans-serif;
+}
+
+section > .div-1{
+    padding-inline: 4rem;
+}
+
+.titulo-1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    border-bottom: 0.2rem solid;
+
+}
+
+.main-servicios > .contenedor{
+    margin-inline: 25rem;
+}
+
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+.contenedor-servicios > .div-img{
+    width: 25%;
+}
+
+.contenedor-servicios > .div-img > img{
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.contenedor-servicios > .div-texto{
+    width: 75%;
+    padding: 0.5rem
+}
+
+.div-texto > p{
+    text-align: justify;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: 'Afacad', sans-serif;
+}
+
+.div-texto > h2{
+    text-align: center;
+    background-color: rgb(254, 160, 158);
+    font-size: 2rem;
+    font-family: 'Afacad', sans-serif;
+}
+
+.contenedor-nosotros-1, .contenedor-nosotros-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor-nosotros-1{
+    border-bottom: 0.2rem dashed;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contenedor-nosotros-1 > div{
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.3rem;
+}
+
+.contenedor-nosotros-1 > div > img{
+    width: 30rem;
+}
+
+.contenedor-nosotros-1 > .div-text{
+    width: 50rem;
+}
+
+.contenedor-nosotros-2{
+    justify-content: space-between;
+}
+
+.contenedor-nosotros-2 > div{
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.contenedor-nosotros-2 > .div-img >img{
+    width: 30rem;
+}
+
+.contenedor-nosotros-2 > .div-text-2{
+    padding-bottom: 2rem;
+}
+
+.contenedor-nosotros-2 > .div-img{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main-contacto > div{
+     margin-inline: 10rem;
+     font-family: 'Afacad', sans-serif;
+     font-size: 1.2rem;
+     margin-bottom: 2rem;
+}
+.main-contacto > .div-2 > form{
+    align-content: start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.main-contacto{
+    height: 92vh;
+}
+
+.form-control{
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 40rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 30px;
+    border: 0.1rem solid;
+    padding: 0.325rem; 
+    text-align: center;
+    font-family: 'Afacad', sans-serif;
+}
+
+.boton-contacto{
+    width: 100%;
+    max-width: 40rem;
+    cursor: pointer;
+    height: 2rem;
+    background-color: rgb(172, 172, 172);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 1600px){
+    .frase{
+        font-size: 1.25rem;
+        width: 31rem;
+        top: 0rem;
+        left: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    .frase{
+        font-size: 1rem;
+        width: 31rem;
+        top: 0rem;
+        left: 0rem;
+    }
+}
+
+@media (max-width: 576px){
+    .frase{
+        font-size: 0.85rem;
+        width: 25rem;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-1{
+        grid-row: 2/3;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-2{
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
