@@ -48,11 +48,23 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit, beatae quod aut fugit amet ullam? Cupiditate distinctio assumenda iste nam minus deserunt nobis earum illo, fuga rerum, velit ducimus autem, ad amet voluptatibus similique nostrum quam corrupti. Ex soluta mollitia, animi, quod ab vel necessitatibus nemo nam ad rem dolorem ducimus voluptatum ut eveniet. Fugit nostrum culpa illo commodi.</p>
         </div>
         <div class="div-2">
-            <form action="">
-                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre y apellido" required>
-                <input type="email" class="form-control" id="email" placeholder="Ingresa tu e-mail" required>
-                <input type="tel" class="form-control" id="tel" placeholder="Ingresa tu número de teléfono">
-                <textarea class="form-control" id="" rows="6" placeholder="Ingresa tu mensaje"></textarea>
+            <form action="" >
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Ingresa tu nombre y apellido" required>
+                    <label for="floatingInput">Ingresa tu nombre y apellido</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Ingresa tu e-mail</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Ingresa tu nombre y apellido" required>
+                    <label for="floatingInput">Ingresa tu número de teléfono</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                    <label for="floatingTextarea2">Ingresa tu mensaje</label>
+                </div>
                 <button class="boton-contacto">Enviar consulta</button>
             </form>
         </div>
