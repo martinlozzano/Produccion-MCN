@@ -200,6 +200,7 @@ section > .div-1{
     display: flex;
     padding-inline: 10rem;
     align-items: center;
+    justify-content: space-between;
 }
 .contenedor-nosotros-1{
     border-bottom: 0.2rem dashed;
@@ -516,12 +517,14 @@ section > .div-1{
         display: flex;
         flex-direction: column;
         padding-inline: 5rem;
+        
     }
 
     .contenedor-nosotros-1 > .div-text{
         margin-right: 0rem;
         width: 100%;
         font-size: 1.2rem;
+        
     }
 
     .contenedor-nosotros-1 > .div-img{
