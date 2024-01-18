@@ -274,10 +274,7 @@ section > .div-1{
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 2rem;
-}
-
-.main-contacto{
-    height: 92vh;
+    margin-bottom: 4rem;
 }
 
 .form-control{
