@@ -1,0 +1,61 @@
+.main-index{
+    .contenedor-parrafo{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+
+        .parrafo{
+            font-size: 1.5rem;
+            font-weight: bold;
+            width: 50rem;
+            text-align: center;
+            background-color: transparent;
+            font-family: 'Kalnia', serif;
+            margin-block: 2rem;
+            border-color: black;
+            border-style: solid;
+            border-width: 3px;
+            padding: 1rem;
+
+            @media (max-width: 1200px){
+                font-size: 1.3rem;
+            }
+
+            @media (max-width: 992px){
+                font-size: 1.1rem;
+            }
+
+            @media (max-width: 768px){
+                font-size: 1rem;
+            }
+
+            @media (max-width: 576px){
+                font-size: 0.9rem;
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+        }
+    }
+
+    .carousel{
+        width: 80%;
+
+        @media (max-width: 992px){
+            width: 100%;
+        }
+        
+        .carousel-indicators{
+            gap: .75rem;
+
+            button{
+                border-radius: 100%;
+            }
+        }
+
+        .carousel-indicators [data-bs-target]{
+            background-clip: initial;
+            height: 5px;
+            width: 25px;
+        }
+    }
+}

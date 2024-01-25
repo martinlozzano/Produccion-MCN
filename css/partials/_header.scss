@@ -1,0 +1,48 @@
+header{
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+    .nav{
+        display: flex;
+        background-color: $colorPrincipal;
+        justify-content: space-between;
+        align-items: center ;
+        padding-inline: 1.5rem;
+        padding-block: 0.15rem;
+
+        .logo-header{
+            width: 11rem;
+            vertical-align: middle;
+        }
+
+        .navbar-toggler{
+            color: transparent;
+            border-color: transparent;
+        }
+    
+        .menu{
+            list-style-type: none;
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            align-items: end;
+    
+            .menu-link{
+                color: $colorSecundario;
+                text-decoration: none;
+                font-weight: bold;
+                text-transform: uppercase ;
+                font-size: 1.4rem;
+                font-family: 'Afacad', sans-serif;
+    
+                &:hover{
+                    font-size: 1.7rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

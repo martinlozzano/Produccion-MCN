@@ -1,0 +1,86 @@
+.main-contacto{
+    @media (max-width: 768px){
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-div{
+        margin-inline: 10rem;
+        font-family: 'Afacad', sans-serif;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+   }
+
+   .div-1{
+        @media (max-width: 768px){
+            width: 100%;
+            max-width: 80%;
+            align-self: center;
+            margin-bottom: 0;  
+        }
+
+        @media (max-width: 576px){
+            width: 100%;
+            max-width: 70%;
+            align-self: center;
+            margin-bottom: 0;  
+        }
+   }
+
+   .div-2{
+        @media (max-width: 768px){
+            width: 100%;
+            max-width: 80%;
+            align-self: center;  
+        }
+
+        @media (max-width: 576px){
+            width: 100%;
+            max-width: 70%;
+            align-self: center;  
+        }
+
+        form{
+            align-content: start;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+
+            .form-control{
+                display: block;
+                width: 100%;
+                max-width: 100%;
+                font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 1.5;
+                border-radius: 20px;
+                border: 0.1rem solid;
+                padding: 0.325rem; 
+                text-align: left;
+                font-family: 'Afacad', sans-serif;
+            }
+            .form-control:not(:placeholder-shown){
+                padding-top: 2rem;
+                padding-left: .7rem;
+            }
+
+            .boton-contacto{
+                width: 100%;
+                max-width: 40rem;
+                cursor: pointer;
+                height: 2rem;
+                background-color: #915f86;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #dccccc;
+                margin-bottom: 5rem;
+            }
+            
+        }
+        
+        
+   }
+}

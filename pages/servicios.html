@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produccion | Servicios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
@@ -42,35 +43,34 @@
         </nav>
     </header>
     <main class="main-servicios">
-        <h1 class="titulo-1">Servicios</h1>
-        
-            <section class="contenedor-servicios">
-                <div class="div-img">
-                    <img src="../img/perrito-1.jpg">
-                </div>
-                <div class="div-texto">
-                    <h2>Servicio 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus obcaecati fugit architecto molestiae officia fuga vero, molestias odit suscipit voluptatum totam qui eum! Illum deserunt temporibus atque error officia provident harum tenetur, distinctio veniam voluptatem, illo hic, ipsum itaque consequuntur?</p>
-                </div>
-            </section>
-            <section class="contenedor-servicios">
-                <div class="div-img">
-                    <img src="../img/perrito-2.jpg">
-                </div>
-                <div class="div-texto">
-                    <h2>Servicio 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus obcaecati fugit architecto molestiae officia fuga vero, molestias odit suscipit voluptatum totam qui eum! Illum deserunt temporibus atque error officia provident harum tenetur, distinctio veniam voluptatem, illo hic, ipsum itaque consequuntur?</p>
-                </div>
-            </section>
-            <section class="contenedor-servicios">
-                <div class="div-img">
-                    <img src="../img/perrito-3.jpg">
-                </div>
-                <div class="div-texto">
-                    <h2>Servicio 3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus obcaecati fugit architecto molestiae officia fuga vero, molestias odit suscipit voluptatum totam qui eum! Illum deserunt temporibus atque error officia provident harum tenetur, distinctio veniam voluptatem, illo hic, ipsum itaque consequuntur?</p>
-                </div>
-            </section>
+        <h1 class="titulo-1 tracking-in-contract-bck">Servicios</h1>
+        <section class="contenedor-servicios" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+            <div class="div-img">
+                <img src="../img/perrito-1.jpg">
+            </div>
+            <div class="div-texto">
+                <h2>Servicio 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus obcaecati fugit architecto molestiae officia fuga vero, molestias odit suscipit voluptatum totam qui eum! Illum deserunt temporibus atque error officia provident harum tenetur, distinctio veniam voluptatem, illo hic, ipsum itaque consequuntur?</p>
+            </div>
+        </section>
+        <section class="contenedor-servicios" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+            <div class="div-img">
+                <img src="../img/perrito-2.jpg">
+            </div>
+            <div class="div-texto">
+                <h2>Servicio 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus obcaecati fugit architecto molestiae officia fuga vero, molestias odit suscipit voluptatum totam qui eum! Illum deserunt temporibus atque error officia provident harum tenetur, distinctio veniam voluptatem, illo hic, ipsum itaque consequuntur?</p>
+            </div>
+        </section>
+        <section class="contenedor-servicios" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+            <div class="div-img">
+                <img src="../img/perrito-3.jpg">
+            </div>
+            <div class="div-texto">
+                <h2>Servicio 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus obcaecati fugit architecto molestiae officia fuga vero, molestias odit suscipit voluptatum totam qui eum! Illum deserunt temporibus atque error officia provident harum tenetur, distinctio veniam voluptatem, illo hic, ipsum itaque consequuntur?</p>
+            </div>
+        </section>
         
     </main>
     <footer class="footer">
@@ -100,5 +100,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
