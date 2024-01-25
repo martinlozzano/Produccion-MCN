@@ -67,8 +67,8 @@
                 font-size: 2rem;
                 font-family: 'Afacad', sans-serif;
 
-                @media (max-width: 576px){
-                    font-size: 1.7rem;
+                @media (max-width: 768px){
+                    font-size: 1.6rem;
                 }
             }
 
@@ -78,8 +78,9 @@
                 font-size: 1.3rem;
                 font-family: 'Afacad', sans-serif;
 
-                @media (max-width: 576px){
-                    font-size: 1.1rem;
+                @media (max-width: 768px){
+                    text-align: center;
+                    font-size: 1.3rem;
                 }
             }
         }

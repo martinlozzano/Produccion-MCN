@@ -1,0 +1,57 @@
+.main-galeria{
+    padding-bottom: 2rem;
+
+    .contenedor-bg{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .div-medio{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-inline: 2rem;
+            padding-block: 1rem;
+            background-color: $colorPrincipal;
+            @media(max-width: 768px){
+                flex-direction: column;
+                align-items: center;
+                padding: 0;
+            }
+            
+            div{
+                display: flex;
+                max-width: 30%;
+                @media(max-width: 768px){
+                    justify-content: center;
+                    max-width: 100%;
+                    padding-block: 1rem;
+                }
+
+                &:nth-last-child(even){
+                    @media (max-width: 768px){
+                        background-color: white;
+                    }
+                }
+
+                img{
+                    width: 100%;
+                    @media(max-width: 768px){
+                        width: 55%;
+                    }
+                }
+            }
+        }
+
+        .contenedor-1, .contenedor-5{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 35%;
+                @media(max-width: 768px){
+                    width: 55%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,162 @@
+.main-conocenos{
+    margin-bottom: 2rem;
+
+    @media (max-width: 1200px){
+        margin-bottom: 0;
+    }
+
+    div{
+        font-family: 'Afacad', sans-serif;
+        font-size: 1.3rem;
+    }
+
+    .contenedor-conocenos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 8% 1fr 1fr 1fr;
+        grid-template-areas:
+            "identidad identidad"
+            "mision nada"
+            "nada2 vision"
+            "valores nada3";
+        column-gap: 4rem;
+        row-gap: 1rem;
+        align-items: start;
+        padding-inline: 10%;
+        align-items: center;
+
+        @media (max-width: 992px){
+            display: flex;
+            flex-direction: column;
+        }
+
+        .identidad{
+            grid-area: identidad;
+            text-align: center;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            h2{
+                padding: 1rem;
+                margin-bottom: 0;
+                border: .2rem solid $colorSecundario;
+                border-radius: 1rem;
+                max-width: 40%;
+                color: $colorSecundario;
+                background-color: $colorPrincipal;
+                text-transform: uppercase;
+
+                @media (max-width: 1200px){
+                    font-size: 1.8rem;
+                }
+
+                @media (max-width: 992px){
+                    max-width: 100%;
+                }
+
+                @media (max-width: 768px){
+                    font-size: 2rem;
+                }
+
+                @media (max-width: 576px){
+                    font-size: 1.7rem;
+                }
+            }            
+        }
+        .mision{
+            grid-area: mision;
+        }
+        .vision{
+            grid-area: vision;
+        }
+        .valores{
+            grid-area: valores;
+            @media (max-width: 1200px){
+                margin-bottom: 2rem;
+            }
+        }
+
+        .mision, .vision, .valores{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            border: .3rem solid $colorSecundario;
+            border-radius: 20%;
+            padding: 1rem;
+
+            @media (max-width: 1200px){
+                font-size: 1.6rem;
+            }
+
+            @media (max-width: 992px){
+                width: 80%;
+            }
+
+            @media (max-width: 768px){
+                width: 75%;
+            }
+
+            @media (max-width: 576px){
+                width: 90%;
+            }
+
+            .poligono-bg{
+                clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+                background-color: $colorSecundario;
+                padding: 0.2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                .poligono{
+                    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+                    background-color: $colorPrincipal;
+                    width: 100%;
+                    margin: 0;
+                    margin-inline: 0.1rem;
+                }
+            }
+            
+            h2{
+                color: $colorSecundario;
+                text-align: center;
+                @media (max-width: 1200px){
+                    font-size: 1.8rem;
+                }
+                @media (max-width: 992px){
+                    font-size: 2rem;
+                }
+                @media (max-width: 576px){
+                        font-size: 1.6rem;
+                    }
+                
+            }
+            p{
+                width: 50%;
+                text-align: center;
+                font-size: 1.5rem;
+
+                @media (max-width: 1200px){
+                    width: 70%;
+                    font-size: 1.4rem;
+                }
+                @media (max-width: 992px){
+                    font-size: 1.6rem;
+                }
+                @media (max-width: 768px){
+                        font-size: 1.4rem;
+                    }
+                @media (max-width: 576px){
+                        font-size: 1.2rem;
+                    }
+
+            }
+        }
+
+        .nada{
+            grid-area: nada, nada2, nada3;
+        }
+    }
+}
