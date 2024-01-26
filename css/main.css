@@ -1,18 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Afacad&family=Kalnia:wght@300&display=swap");
-.pulsate-fwd {
-  animation: pulsate-fwd 1s ease-in-out infinite both;
-}
-@keyframes pulsate-fwd {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.3);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 * {
   border: 0;
   margin: 0;
@@ -248,7 +234,7 @@ header .nav .menu .menu-link:hover {
 
 .main-servicios .contenedor-servicios {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 0.5rem;
   padding-inline: 20rem;
 }
@@ -324,7 +310,7 @@ header .nav .menu .menu-link:hover {
 .main-servicios .contenedor-servicios .div-texto p {
   text-align: justify;
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-family: "Afacad", sans-serif;
 }
 @media (max-width: 768px) {

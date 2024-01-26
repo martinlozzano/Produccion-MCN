@@ -1,7 +1,7 @@
 .main-servicios{
     .contenedor-servicios{
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         margin: 0.5rem;
         padding-inline: 20rem;
 
@@ -75,7 +75,7 @@
             p{
                 text-align: justify;
                 width: 100%;
-                font-size: 1.3rem;
+                font-size: 1.8rem;
                 font-family: 'Afacad', sans-serif;
 
                 @media (max-width: 768px){
