@@ -93,6 +93,8 @@ header .nav .menu .menu-link:hover {
   list-style-type: none;
   display: flex;
   gap: 1.5rem;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 .footer .footer-2 ul .icon-red-social {
   font-size: 2rem;

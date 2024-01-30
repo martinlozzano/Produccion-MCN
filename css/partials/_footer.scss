@@ -32,7 +32,6 @@
     }
 
     .footer-2{
-
         @media (max-width: 576px){
             grid-row: 1/2;
             display: flex;
@@ -43,6 +42,8 @@
             list-style-type: none; 
             display: flex; 
             gap: 1.5rem;
+            padding-left: 0;
+            margin-bottom: 0;
 
             .icon-red-social{
                 font-size: 2rem;
